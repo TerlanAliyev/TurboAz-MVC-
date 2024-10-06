@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+            integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+          integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="turboaz.css">
+</head>
+<body>
+    <div class="basliq">
+        <a href="">
+            <i class="fa-solid fa-heart-circle-check"></i>
+            Seçilmişlər
+        </a>
+        <a href=""><i class="fa-solid fa-user"></i>Giriş</a>
+
+    </div>
+    <nav>
+        <div class="left">
+            <a href="" style="font-size: 18px; font-weight: 700;">TURBO.AZ</a>
+            <a href="">Bütün elanlar</a>
+            <a href="">Salonlar</a>
+            <a href="">Moto</a>
+            <a href="">Ehtiyat hissələr və aksesuarlar</a>
+            <a href="">İcarə</a>
+        </div>
+        <div class="right">
+            <a href="">
+                <span>Yeni elan</span>
+            </a>
+        </div>
+    </nav>
+    <div>
+        @RenderBody()
+    </div>
+    <footer>
+        <div class="top">
+            <div class="left">
+                <a href="">Reklam yerləşdirin</a>
+            </div>
+            <div class="right">
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-solid fa-envelope"></i>turbo@turbo.az</a>
+                <a href=""><i class="fa-solid fa-phone"></i>(012) 505-77-55</a>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="left">
+                <p>
+                    Saytın Administrasiyası reklam bannerlərinin və yerləşdirilmiş elanların məzmununa görə məsuliyyət
+                    daşımır.
+                </p>
+            </div>
+            <div class="right">
+                <p>
+                    2006-2024 Digital Classifieds MMC. VÖEN: 1405631661
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
